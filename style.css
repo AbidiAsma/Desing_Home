@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+/*start parent*/
+.parent{
+    width: 1200px;
+    height: 1000px;
+    margin: auto;
+}
+/*start header*/
+.parent .header{
+    width: 90%;
+    height: 40px;
+    margin: 20px;
+    padding: 15px;
+    line-height: 20px;
+}
+.parent .header .logo{
+    float: left;
+}
+.parent .header .logo p{
+    text-align: center;
+}
+.parent .header .navbar{
+    float: right;
+}
+.parent .header .navbar a{
+    text-decoration: none;
+    color:  rgb(46, 45, 45);
+    text-transform: uppercase;
+}
+.parent .header .navbar a:hover{
+    background-color: rgb(46, 45, 45);
+    color: white;
+}
+
+/*end header*/
+
+/*start description*/
+.parent .description{
+    width: 90%;
+    height: 150px;
+    padding: 10px;
+    background-color: rgb(107, 105, 105);
+    color: white;
+}
+.parent .description .home{
+    width: 45%;
+    height: 120px;
+    float: left;
+}
+.parent .description .home h4{
+    font-size: 24px;
+    text-align: center;
+}
+.parent .description .home h1{
+    text-align: center;
+    font-size: 60px;
+
+}
+.parent .description .lorem{
+    width: 45%;
+    height: 150px;
+    float:right;
+}
+.parent .description .lorem a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.parent .description .lorem a:hover{
+    background-color: rgb(46, 45, 45);
+}
+/*end description*/
+/*srtart article*/
+.parent .article{
+    width: 90%;
+    height: 20em;
+    margin: 20px;
+    padding: 10px;
+}
+.parent .article .kitchen{
+    margin: 5px 5px;
+    padding: 10px;
+    width: 45%;
+    height: 95%;
+    float: left;
+}
+.parent .article .kitchen .img{
+    width: 45%;
+    float: left;
+}
+.parent .article .kitchen .lorem{
+    width: 45%;
+    float: right;
+    text-align: left;
+}
+.parent .article .lorem h4{
+    color:  rgb(46, 45, 45);
+    text-transform: capitalize;
+}
+.parent .article .lorem a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(107, 105, 105);
+    text-transform: capitalize;
+}
+.parent .article .lorem a:hover{
+    background-color: rgb(46, 45, 45);
+}
+.parent .article .bedroom{
+    margin: 5px 5px;
+    padding: 10px;
+    width: 45%;
+    height: 95%;
+    float: right;
+}
+.parent .article .bedroom .img{
+    width: 45%;
+    float: left;
+}
+.parent .article .bedroom .lorem{
+    width: 45%;
+    float: right;
+    text-align: left;
+}
+/*end article*/
+
+/*start footer*/
+.parent .footer{
+    width: 90%;
+    height: 20px;
+    margin: 10px;
+    padding: 10px;
+    text-align: end;
+}
+.parent .footer .adresse{
+    width: 49%;
+    height: 100%;
+    float: left;
+}
+.parent .footer .fa{
+    width: 49%;
+    height: 100%;
+    text-align: center;
+    float: right;
+    text-align: start;
+}
+.parent .footer .fa .fa-brands:hover{
+    background-color: rgb(46, 45, 45);
+    color: white;
+}
+/*end footer*/
+/*end parent*/
